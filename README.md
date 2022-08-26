@@ -12,7 +12,7 @@ mvn clean install
 ~~~
 ./jboss-cli.sh -c
 ~~~
-3. Then deploy the war (the war file can be found under /target folder) the  file into JBoss EAP using below cli command:
+3. Then deploy the war file (the war file can be found under /target folder) into JBoss EAP using below cli command:
 ~~~
 deploy /path/to/xxxxxx.war
 ~~~
