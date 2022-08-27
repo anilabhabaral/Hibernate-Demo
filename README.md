@@ -1,5 +1,5 @@
 # Hibernate-Demo
-Hibernate-ORM Demo Project With H2 Database and JBoss EAP 
+Hibernate-ORM Demo Project (CURD operations) With H2 Datasource and JBoss EAP 
 
 # Build Project
 ~~~
