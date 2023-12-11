@@ -44,9 +44,10 @@ public class Controller {
 
 		return list;
 	}
-//add data
 
-	public static int insertData(int id, String firstName, String lastName, String city) throws Exception {
+	
+//add data
+       public static int insertData(int id, String firstName, String lastName, String city) throws Exception {
 		sessionFactory = (SessionFactory) new Configuration().configure("hibernate.cfg.xml")
 				.addAnnotatedClass(Person.class).buildSessionFactory();
 
