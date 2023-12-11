@@ -13,7 +13,6 @@ public class Controller {
 	private static SessionFactory sessionFactory;
 
 // show data
-	
 	public static List<Person> getAllRecords() throws Exception {
 		sessionFactory = (SessionFactory) new Configuration().configure("hibernate.cfg.xml")
 				.addAnnotatedClass(Person.class).buildSessionFactory();
